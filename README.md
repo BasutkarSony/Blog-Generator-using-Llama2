@@ -28,46 +28,45 @@ A Streamlit web application that generates customized blog posts using Meta’s 
 ```bash
 git clone https://github.com/BasutkarSony/Blog-Generator-using-Llama2.git
 cd Blog-Generator-using-Llama2
-
+```
 
 2. **Install Ollama:**
 
 - Download and install from [https://ollama.com/download](https://ollama.com/download)
 - Verify with:
 
-  ```
-  ollama --version
-  ```
+```bash
+ollama --version
+```
 
 3. **Create and activate virtual environment:**
 
 On Windows:
-```
+```bash
 python -m venv .venv
 venv\Scripts\activate
 ```
 
-
 On macOS/Linux:
-```
+```bash
 python -m venv .venv
 source venv/bin/activate
 ```
 
 4. **Install required dependencies:**
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 5. **Download the Llama 2 model (7B) using Ollama:**
 
-```
+```bash
 ollama pull llama2:7b
 ``` 
 
 6. **Run the Streamlit app:**
-```
+```bash
 streamlit run app.py
 ```
 ## 📝 Usage
@@ -82,14 +81,6 @@ streamlit run app.py
 ## 🚀 Live Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-blog-generator-app.streamlit.app/)
-
-
----
-
-## 📸 Screenshot
-
-![App Screenshot](screenshot.png)  
-*Sample user interface of the Blog Generator app.*
 
 ---
 ## 📄 License
