@@ -80,12 +80,7 @@ streamlit run app.py
 
 ## 🚀 Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-blog-generator-app.streamlit.app/)
-
----
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blog-generator-using-llama2.streamlit.app/)
 
 ---
 *Happy blogging with AI! 🤖*
